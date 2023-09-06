@@ -11,6 +11,8 @@
 		4C450AC62AA905A400B218DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C450AC52AA905A400B218DA /* ContentView.swift */; };
 		4C450AC82AA905A500B218DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C450AC72AA905A500B218DA /* Assets.xcassets */; };
 		4C450ACB2AA905A500B218DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C450ACA2AA905A500B218DA /* Preview Assets.xcassets */; };
+		4C450AD32AA909B700B218DA /* KitsuRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C450AD22AA909B700B218DA /* KitsuRequest.swift */; };
+		4C450AD62AA9206900B218DA /* AnimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C450AD52AA9206900B218DA /* AnimeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		4C450AC52AA905A400B218DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4C450AC72AA905A500B218DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C450ACA2AA905A500B218DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4C450AD22AA909B700B218DA /* KitsuRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitsuRequest.swift; sourceTree = "<group>"; };
+		4C450AD52AA9206900B218DA /* AnimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,8 @@
 		4C450AB72AA905A400B218DA = {
 			isa = PBXGroup;
 			children = (
+				4C450AD42AA9204E00B218DA /* Network */,
+				4C450AD12AA909A600B218DA /* Models */,
 				4C450AC22AA905A400B218DA /* The-Anime-Library-iOS */,
 				4C450AC12AA905A400B218DA /* Products */,
 			);
@@ -65,6 +71,22 @@
 				4C450ACA2AA905A500B218DA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4C450AD12AA909A600B218DA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4C450AD52AA9206900B218DA /* AnimeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4C450AD42AA9204E00B218DA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4C450AD22AA909B700B218DA /* KitsuRequest.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C450AC62AA905A400B218DA /* ContentView.swift in Sources */,
+				4C450AD32AA909B700B218DA /* KitsuRequest.swift in Sources */,
+				4C450AD62AA9206900B218DA /* AnimeModel.swift in Sources */,
 				4C450AC42AA905A400B218DA /* The_Anime_Library_iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
